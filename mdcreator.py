@@ -23,7 +23,7 @@ from ftplib import FTP
 
 __author__ = 'igi'
 
-tool = Tool('migrationd')
+tool = Tool('creator')
 tool.add_argument('-i', '--interval', type=int, default=600,
                   help='Unmanaged file refetch interval in seconds (default 600)')
 tool.add_argument('--location', help='Storage handle to look for files in')
